@@ -1,10 +1,55 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
 build/
 dist/
-wheels/
-*.egg-info
+.eggs/
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+.env/
+
+# Environment variables
+.env
+*.env
+
+# Scraper output (contains lead data)
+output/
+results/
+out_*/
+
+# Playwright browser binaries
+playwright-browsers/
+.playwright/
+.playwright-browsers/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Local AI assistant configuration
+.agents/
+.claude/
+.codex/
+AGENTS.md
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
